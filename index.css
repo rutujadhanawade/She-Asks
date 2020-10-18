@@ -252,9 +252,10 @@ header table {
     padding:10vh 0px;
     text-align:center;
     font-weight:bold;
+background:linear-gradient(0deg,rgba(255, 44, 90, 0.8),rgba(2255, 44, 90, 0.8));
 }
-#footer a {
-    color:rgb(255, 44, 90);
+#footer span {
+    color:#fff;
     text-decoration:none;
 }
 ::placeholder {
