@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SHEASKS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="magnify">
+        <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+        <div id="img_here"></div>
+    </div>
+    <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+        <table>
+            <tr>
+                <td id="logo">SheAsks</td>
+                <td id="navigation">
+                 
+                    <a href="#bio">about</a>
+                    <a href="">blog</a>
+                    <a href="#contact">contact us</a>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <table id="top_part">
+        <tr>
+            <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
+	
+                <h1>Welcome girls!!!</h1>
+	<p> Feel free to ask your doubts !!!!</p>
+
+ <button class="btn_one" href="#bio">Consult a Doctor</button>
+                <table>
+                    <tr>
+                        <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fab fa-facebook"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-twitter"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-instagram"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-dribbble"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:3.0s;"><a class="social"><i class="fab fa-medium"></i></a></td>
+                    </tr>
+                </table>
+            </td>
+            <td id="rightImage"> 
+<br>
+<br>
+	<iframe
+style="margin-left:12vw;"
+    allow="microphone;"
+   width="410"
+    height="550"
+    src="https://console.dialogflow.com/api-client/demo/embedded/0ccec5a4-1e00-49e1-a57a-411030af7668">
+</iframe></td>
+        </tr>
+    </table>
+    
+    <div id="bio">
+        <h1>about</h1>
+        <p>
+        <b>SheAsks is a NLP based Chatbot integrated on a website, specially designed to resolve the health issues faced by girls of different age group. </b>
+You can ask any health related issues from the bot. Chatbot is developed using the Google DialogFlow.
+</p><p>
+You can ask questions to SheAsks Chatbot like:<br>
+->Hello<br>
+->How to remain healthy?<br>
+->What vitamin should a women take?<br>
+->Most common diseases in women<br>
+and many more.....
+<p>
+Main motive of SheAsks project is to resolve the health related issues faced by women in day to day <br>
+As We all know how much important physical health and hygiene is. But due to unavailability of doctors or due to shy nature of women, they face many
+health related issues which becomes a serious problem in future.<br>
+So SheAsks is a website consisting of NLP based chatbot which will help girls.
+<br>
+<br>
+Future Improvements:
+After consulting some specialists we can add more data and can train our chatbot , to make it more efficient.
+        </p>
+    </div>
+    <div id="contact">
+        <h1>contact</h1>
+            <table>
+                <tr>
+                    <td>
+                        <div id="inner_div">
+                            <table id="inner_table">
+                                <tr>
+                                    <td><i class="fas fa-phone"></i> &nbsp; +1 234 567 8910</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fas fa-at"></i> &nbsp; yourname@email.com</td>
+                                </tr>
+                                 <tr>
+                                    <td><i class="fas fa-fax"></i> &nbsp; +1 234 567 8910</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fas fa-map-marker-alt"></i>
+                                    <div id="address">
+                                        Street 123,<br>
+                                        blah blah city,<br>
+                                        blah blah country
+                                    </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a class="social"><i class="fab fa-facebook"></i></a>
+                                        <a class="social"><i class="fab fa-twitter"></i></a>
+                                        <a class="social"><i class="fab fa-instagram"></i></a>
+                                        <a class="social"><i class="fab fa-dribbble"></i></a>
+                                        <a class="social"><i class="fab fa-medium"></i></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                    <td>
+                        <form>
+                            <input type="text" placeholder="name" required>
+                            <input type="email" placeholder="email" required><br>
+                            <textarea placeholder="your message" required rows="5"></textarea><br>
+                            <button class="btn_one">send</button>
+                        </form> 
+                    </td>
+                </tr>
+            </table>
+    </div>
+    <div id="footer">
+        Made by <span>TEAM- {CodeBrakers} </span><br>
+	 &copy; Copyright <strong><span>TEAM- {CodeBrakers}</span></strong>. All Rights Reserved
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
